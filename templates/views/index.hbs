@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <link rel="icon" href="/img/weather.png">
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body>
+    <div class="main-content-div">
+    {{>header}}
+    <p>This is an application where you can get your local weather forecast!</p>
+    <p></p>
+
+    <form>
+        <input placeholder="location">
+        <button>search</button>
+    </form>
+
+    <p id="loc"></p>
+
+    <p id="for"></p>
+     
+    </div>
+
+    {{>footer}}
+    <script src="/js/app.js"></script>
+
+</body>
+
+</html>
