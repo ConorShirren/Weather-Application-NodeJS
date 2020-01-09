@@ -4,8 +4,8 @@
   "description": "First Express Web Server",
   "main": "index.js",
   "scripts": {
-    "start":"node src/app.js",
-    "dev":"nodemon src/app.js -e js,hbs"
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js -e js,hbs"
   },
   "author": "Conor Shirren",
   "license": "ISC",
@@ -13,5 +13,8 @@
     "express": "^4.17.1",
     "hbs": "^4.0.6",
     "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
   }
 }
