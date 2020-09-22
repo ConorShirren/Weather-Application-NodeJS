@@ -5,3 +5,15 @@
 - API data is pulled from mapbox.com and darksky.net (API code found in src/utils/)
 
 NOTE : Other pages of the website are still in production.
+
+
+## Server Side Technologies
+
+- Node.js
+- Express
+
+## Client Side Technologies
+
+- HTML/CSS
+- Javascript
+- Handlebars Templates/Views
